@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_wOHTwE8tEeuEpoYSWUDbvw" name="connectionBDD" id="_oUlLsE8tEeuEpoYSWUDbvw" label="connectionBDD" dataPackage="_5LQ08E8tEeuEpoYSWUDbvw" ContextMode="true" ContextId="_3pfgME8tEeuEpoYSWUDbvw" contextName="Default" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/test?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="context.connectionBDD_Port" Username="context.connectionBDD_Login" Password="context.connectionBDD_Password" ServerName="context.connectionBDD_Server" DatasourceName="" FileFieldName="" SID="context.connectionBDD_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.connectionBDD_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_wOHTwU8tEeuEpoYSWUDbvw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_wOZnoE8tEeuEpoYSWUDbvw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_wOd5EE8tEeuEpoYSWUDbvw" tag="Status" value=""/>
+    <taggedValue xmi:id="_wOd5EU8tEeuEpoYSWUDbvw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_wOd5Ek8tEeuEpoYSWUDbvw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_wOd5E08tEeuEpoYSWUDbvw" tag="Description" value=""/>
+    <taggedValue xmi:id="_wOd5FE8tEeuEpoYSWUDbvw" tag="Author" value=""/>
+    <taggedValue xmi:id="_wOd5FU8tEeuEpoYSWUDbvw" tag="otherParameter"/>
+    <taggedValue xmi:id="_wOw0AE8tEeuEpoYSWUDbvw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_wOw0AU8tEeuEpoYSWUDbvw" tag="DB ProductVersion" value="8.0.22"/>
+    <taggedValue xmi:id="_wOw0Ak8tEeuEpoYSWUDbvw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_wOHTwk8tEeuEpoYSWUDbvw" key="CONN_PARA_KEY_USERNAME" value="context.connectionBDD_Login"/>
+    <parameters xmi:id="_y6idwE8tEeuEpoYSWUDbvw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_5LQ08E8tEeuEpoYSWUDbvw" name="test" dataManager="_wOHTwE8tEeuEpoYSWUDbvw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_HrarsE8uEeuEpoYSWUDbvw" name="test" id="_HrY2gE8uEeuEpoYSWUDbvw" label="test" tableType="TABLE">
+      <taggedValue xmi:id="_HrarsU8uEeuEpoYSWUDbvw" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_LUZkkE8uEeuEpoYSWUDbvw" name="ref" label="ref" length="16383" sourceType="TEXT" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_LUZkkU8uEeuEpoYSWUDbvw" name="libelle" label="libelle" length="16383" sourceType="TEXT" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_LUZkkk8uEeuEpoYSWUDbvw" name="description" label="description" length="16383" sourceType="TEXT" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
